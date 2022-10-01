@@ -14,3 +14,8 @@
   font-family: Okine;
   src: url('../public/font/MADEOkineSansPERSONALUSE-RegularOutline.otf');
 }
+
+@font-face {
+  font-family: okineNormal;
+  src: url('../public/font/MADEOkineSansPERSONALUSE-Medium.woff');
+}

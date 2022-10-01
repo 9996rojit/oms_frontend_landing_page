@@ -12,11 +12,19 @@ const navLinks = [
 
 const Header = () => {
   return (
-    <header className='flex items-center justify-center px-[100px]'>
+    <header className='flex items-center justify-center px-[100px] gap-[156px]'>
       <div className='relative w-[103.51px] h-[72.09px]'>
         <Image src={logo} layout='fill' alt='logo' />
       </div>
-      <div className='flex-1'></div>
+      <div className='flex-1 flex justify-between items-center'>
+        {navLinks?.map((link, i) => {
+          return (
+            <div className=' text-white text-lg cursor-pointer' key={i}>
+              {link?.name}
+            </div>
+          );
+        })}
+      </div>
       <div>
         <Button buttonType='primary'>Book a Demo</Button>
       </div>

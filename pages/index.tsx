@@ -1,5 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Header from '../components/Header';
+import HomePage from '../components/HomePage';
 import Button from '../components/UI/Button';
 
 const Home: NextPage = () => {
@@ -11,9 +13,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <Button buttonType='primary'>ABC</Button>
-      </main>
+      <HomePage />
     </>
   );
 };

@@ -9,7 +9,8 @@ const Button = (props: Props) => {
   const { children, icon, buttonType, ...rest } = props;
   return (
     <button
-      className={` px-4 py-3 transform hover:duration-200 duration-200 ${
+      style={{ boxShadow: '0px 8px 12px rgba(135, 199, 84, 0.25)' }}
+      className={` px-4 py-3 transform hover:duration-200 duration-200  ${
         props?.className
       } ${
         props?.buttonType === 'primary'

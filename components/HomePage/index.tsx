@@ -5,7 +5,10 @@ import HeroContainer from './HeroContainer';
 
 const HomePage = () => {
   return (
-    <div className='bg-[#2E2F31] min-h-screen'>
+    <div
+      className='bg-[#2E2F31] min-h-screen'
+      style={{ fontFamily: 'okineNormal' }}
+    >
       <Header />
       <Layout>
         <HeroContainer />

@@ -7,7 +7,7 @@ import arrow from '../../public/assets/arrow.svg';
 
 const HeroContainer = () => {
   return (
-    <div className='mt-14'>
+    <div className='mt-[54px]'>
       {/* <div className='relative w-[487px] h-[134px]'>
         <Image src={Seemlessly} layout='fill' alt='Seemlessly' />
       </div> */}

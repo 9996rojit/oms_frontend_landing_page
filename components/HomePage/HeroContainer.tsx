@@ -54,18 +54,6 @@ const HeroContainer = () => {
           <button className='text-primary underline mt-3'>Contact us</button>
         </div>
       </div>
-      {width < 1024 && (
-        <Button
-          buttonType='primary'
-          style={{
-            width: '100%',
-            boxShadow: '0px 8px 12px  rgba(135, 199, 84, 0.25)',
-            marginTop: '65px',
-          }}
-        >
-          Book a Demo
-        </Button>
-      )}
     </div>
   );
 };

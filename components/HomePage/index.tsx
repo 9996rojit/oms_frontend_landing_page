@@ -6,6 +6,7 @@ import Layout from '../UI/Layout';
 import AboutusBanner from './AboutusBanner';
 import ContactBanner from './ContactBanner';
 import FeaturesBanner from './FeaturesBanner';
+import FinalSection from './FinalSection';
 import HeroContainer from './HeroContainer';
 import ServicesBanner from './ServicesBanner';
 
@@ -25,6 +26,7 @@ const HomePage = () => {
       {width > 1024 && <FeaturesBanner />}
       {width > 1024 && <ServicesBanner />}
       {width > 1024 && <ContactBanner />}
+      <FinalSection />
 
       {/* {width < 1024 && (
         <div className=' overflow-hidden'>

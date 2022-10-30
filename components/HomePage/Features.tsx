@@ -10,7 +10,7 @@ import inventoryManagement from '../../public/assets/featureInventoryManagement.
 const Features = () => {
   return (
     <div className=' text-[#F7F7FC] mt-[63px]'>
-      <Header className='mb-[30px] ' />
+      <Header className='mb-[20px] ' />
       <Layout>
         <div className='flex flex-col lg:flex-row gap-y-7 lg:gap-x-20 min-h-screen h-auto'>
           <div>

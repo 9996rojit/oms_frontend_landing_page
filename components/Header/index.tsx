@@ -12,11 +12,15 @@ const navLinks = [
   { name: 'Features', path: '/' },
 ];
 
-const Header = () => {
+const Header: React.FC<{ className?: string }> = ({ className }) => {
   const { width } = useWindowSize();
 
   return (
-    <header className='flex items-center justify-between px-4 lg:px-[100px] gap-[156px]'>
+    <header
+      className={`flex items-center justify-between px-4 lg:px-[100px] gap-[156px] ${
+        className ? className : ''
+      }`}
+    >
       <div className='relative w-[70px] h-[50px]  lg:w-[103.51px] lg:h-[72.09px]'>
         <Image src={logo} layout='fill' alt='logo' />
       </div>

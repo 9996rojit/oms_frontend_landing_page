@@ -5,6 +5,7 @@ import Button from '../UI/Button';
 import Layout from '../UI/Layout';
 import AboutusBanner from './AboutusBanner';
 import ContactBanner from './ContactBanner';
+import Features from './Features';
 import FeaturesBanner from './FeaturesBanner';
 import FinalSection from './FinalSection';
 import HeroContainer from './HeroContainer';
@@ -24,6 +25,7 @@ const HomePage = () => {
       </Layout>
       {width > 1024 && <AboutusBanner />}
       {width > 1024 && <FeaturesBanner />}
+      <Features />
       {width > 1024 && <ServicesBanner />}
       {width > 1024 && <ContactBanner />}
       <FinalSection />

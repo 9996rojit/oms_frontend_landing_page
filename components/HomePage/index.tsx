@@ -3,6 +3,7 @@ import { useWindowSize } from '../../hooks/useWindowDimension';
 import Header from '../Header';
 import Button from '../UI/Button';
 import Layout from '../UI/Layout';
+import Aboutus from './Aboutus';
 import AboutusBanner from './AboutusBanner';
 import Contact from './Contact';
 import ContactBanner from './ContactBanner';
@@ -25,6 +26,7 @@ const HomePage = () => {
         <HeroContainer />
       </Layout>
       {width > 1024 && <AboutusBanner />}
+      <Aboutus />
       {width > 1024 && <FeaturesBanner />}
       <Features />
       {width > 1024 && <ServicesBanner />}/{width > 1024 && <ContactBanner />}

@@ -11,6 +11,7 @@ import Features from './Features';
 import FeaturesBanner from './FeaturesBanner';
 import FinalSection from './FinalSection';
 import HeroContainer from './HeroContainer';
+import Services from './Services';
 import ServicesBanner from './ServicesBanner';
 
 const HomePage = () => {
@@ -29,7 +30,9 @@ const HomePage = () => {
       <Aboutus />
       {width > 1024 && <FeaturesBanner />}
       <Features />
-      {width > 1024 && <ServicesBanner />}/{width > 1024 && <ContactBanner />}
+      {width > 1024 && <ServicesBanner />}
+      <Services />
+      {width > 1024 && <ContactBanner />}
       <Contact />
       <FinalSection />
       {/* {width < 1024 && (
